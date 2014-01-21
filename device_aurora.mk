@@ -20,8 +20,8 @@ $(call inherit-product, device/zte/aurora/prebuilt/lib/modules/modules.mk)
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
-    audio_policy.msm7x30 \
-    audio.primary.msm7x30 \
+    audio_policy.msm8960 \
+    audio.primary.msm8960 \
     libaudioutils
 
 PRODUCT_PACKAGES += \
