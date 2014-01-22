@@ -123,7 +123,7 @@ BOARD_FORCE_RAMDISK_ADDRESS := 0x81500000
 BOARD_KERNEL_PAGESIZE := 2048
 
 TARGET_PREBUILT_KERNEL := device/zte/aurora/kernel
-TARGET_KERNEL_SOURCE := kernel/zte/elden
+TARGET_KERNEL_SOURCE := kernel/zte/aurora
 TARGET_KERNEL_CONFIG := msm8960-hayes_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 
@@ -149,11 +149,6 @@ BOARD_RECOVERY_HANDLES_MOUNT := true
 BOARD_HAS_DOWNLOAD_MODE := true
 TARGET_PREBUILT_RECOVERY_KERNEL := device/zte/aurora/recovery/kernel
 BOARD_CUSTOM_GRAPHICS := ../../../device/zte/aurora/recovery/graphics.c
-
-BOARD_HAS_NO_SELECT_BUTTON := true
-# Use this flag if the board has a ext4 partition larger than 2gb
-BOARD_HAS_LARGE_FILESYSTEM := true
-#BOARD_CUSTOM_GRAPHICS := ../../../device/zte/arthur/recovery/minui/graphics.c 
 
 # Insecure boot
 ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
