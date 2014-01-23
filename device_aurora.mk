@@ -257,10 +257,3 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 -include vendor/cm/config/common_versions.mk
-
-## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := aurora
-PRODUCT_NAME := cm_aurora
-PRODUCT_BRAND := ZTE
-PRODUCT_MODEL := ZTE N9100
-PRODUCT_MANUFACTURER := ZTE
